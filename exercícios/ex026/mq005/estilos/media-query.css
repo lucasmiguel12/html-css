@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* todas as demais medias */
+
+/* Typical Device Breakpoints
+Celular: de  320px — 480px.
+Tablet: de 481px — 768px.
+Laptop: 769px — 1024px.
+Desktop: 1025px — 1200px.
+TV: 1201px, and more.
+*/
+
+@media screen and (min-width: 481px){
+    i#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+    main{
+        width: 481px;
+    }
+}
